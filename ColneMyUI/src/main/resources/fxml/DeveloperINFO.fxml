@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="devPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeveloperINFO">
+    <right>
+        <AnchorPane prefHeight="500.0" prefWidth="472.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button layoutX="284.0" layoutY="428.0" mnemonicParsing="false" onAction="#gotoFuncPage" prefHeight="37.0" prefWidth="157.0" style="-fx-background-color: #413F3F;" text="GO BACK" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="Segoe UI Symbol" size="17.0" />
+                    </font>
+                </Button>
+                <Label layoutX="214.0" layoutY="13.0" prefHeight="44.0" prefWidth="246.0" text="DEVELOPER INFO" textFill="#413f3f">
+                    <font>
+                        <Font name="Segoe UI Black" size="27.0" />
+                    </font>
+                </Label>
+                <Separator layoutX="15.0" layoutY="30.0" prefHeight="55.0" prefWidth="443.0" />
+            <Label layoutX="224.0" layoutY="85.0" text="Faraz Hussain" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Semibold" size="17.0" />
+               </font></Label>
+            <Separator layoutX="206.0" layoutY="102.0" prefHeight="18.0" prefWidth="250.0" />
+            <Label layoutX="401.0" layoutY="85.0" prefHeight="26.0" prefWidth="40.0" text="B17" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Semibold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="218.0" layoutY="120.0" prefHeight="21.0" prefWidth="247.0" text="Student at Terna Engineering College" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="219.0" layoutY="141.0" prefHeight="21.0" prefWidth="237.0" text="Academic Excellence : 9.29 agg." textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="218.0" layoutY="162.0" prefHeight="21.0" prefWidth="250.0" text="Contribution : Front-end &amp; Back-end" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="216.0" prefHeight="26.0" prefWidth="108.0" text="Ved Thakur" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Semibold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="277.0" layoutY="216.0" prefHeight="26.0" prefWidth="60.0" text="B03" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Semibold" size="17.0" />
+               </font>
+            </Label>
+            <Separator layoutX="90.0" layoutY="233.0" prefHeight="15.0" prefWidth="250.0" />
+            <Label layoutX="104.0" layoutY="248.0" prefHeight="21.0" prefWidth="244.0" text="Student at Terna Engineering College" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="104.0" layoutY="269.0" prefHeight="21.0" prefWidth="244.0" text="Academic Excellence : 9.47 agg." textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="105.0" layoutY="290.0" prefHeight="21.0" prefWidth="239.0" text="Contribution : Research &amp; UI Design" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="318.0" text="Kunal Dongre" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Semibold" size="17.0" />
+               </font>
+            </Label>
+            <Separator layoutX="89.0" layoutY="335.0" prefHeight="19.0" prefWidth="250.0" />
+            <Label layoutX="277.0" layoutY="318.0" prefHeight="26.0" prefWidth="48.0" text="B18" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Semibold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="354.0" text="Student at Terna Engineering College" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="104.0" layoutY="375.0" text="Academic Excellence : 8.5 agg." textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="103.0" layoutY="396.0" text="Contribution : Research &amp; Back-end" textFill="#413f3f">
+               <font>
+                  <Font name="Segoe UI Light" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="188.0" layoutX="15.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Admin/IdeaProjects/ColneMyUI/src/images/engineer.png" />
+               </image>
+            </ImageView>
+            </children>
+            <effect>
+                <Lighting>
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+                    <light>
+                        <Light.Distant />
+                    </light>
+                </Lighting>
+            </effect></AnchorPane>
+    </right>
+    <center>
+        <AnchorPane prefHeight="500.0" prefWidth="470.0" style="-fx-background-color: #413F3F;" BorderPane.alignment="CENTER">
+            <children>
+                <Separator layoutY="300.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="59.0" />
+                <Label layoutX="55.0" layoutY="469.0" prefHeight="16.0" prefWidth="148.0" text="OOPM | MINI PROJECT " textFill="WHITE">
+                    <font>
+                        <Font name="Segoe UI Semibold" size="12.0" />
+                    </font>
+                </Label>
+            <Button layoutX="12.0" layoutY="24.0" mnemonicParsing="false" onAction="#gotoHomePage" prefHeight="60.0" prefWidth="101.0" style="-fx-background-color: transparent;" text="con" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="33.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <Button layoutX="60.0" layoutY="28.0" mnemonicParsing="false" onAction="#gotoHomePage" prefHeight="55.0" prefWidth="105.0" style="-fx-background-color: transpatent;" text="-to" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Emoji" size="27.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <Button layoutX="15.0" layoutY="55.0" mnemonicParsing="false" onAction="#gotoHomePage" prefHeight="59.0" prefWidth="92.0" style="-fx-background-color: yransparent;" text="PDF" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Historic" size="27.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

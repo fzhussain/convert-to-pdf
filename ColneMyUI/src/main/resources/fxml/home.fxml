@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <left>
+        <AnchorPane prefHeight="500.0" prefWidth="274.0" style="-fx-background-color: #413F3F;" BorderPane.alignment="CENTER">
+            <children>
+                <Label contentDisplay="TOP" layoutX="29.0" layoutY="39.0" prefHeight="41.0" prefWidth="59.0" text="con" textFill="WHITE">
+                    <font>
+                        <Font name="Segoe UI Bold" size="33.0" />
+                    </font>
+                    <effect>
+                        <Glow />
+                    </effect>
+                </Label>
+                <Label layoutX="88.0" layoutY="44.0" prefHeight="17.0" prefWidth="41.0" text="-to" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+                    <font>
+                        <Font name="Segoe UI Emoji" size="27.0" />
+                    </font>
+                    <effect>
+                        <Glow />
+                    </effect>
+                </Label>
+                <Label layoutX="29.0" layoutY="80.0" text="PDF" textFill="#fffafa">
+                    <font>
+                        <Font name="Segoe UI Historic" size="28.0" />
+                    </font>
+                    <effect>
+                        <Glow />
+                    </effect>
+                </Label>
+                <Separator layoutY="300.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="59.0" />
+                <Label layoutX="-18.0" layoutY="217.0" rotate="270.0" text="GO AHEAD" textFill="#c7c7c7">
+                    <font>
+                        <Font name="Microsoft Yi Baiti" size="22.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </left>
+    <right>
+        <AnchorPane prefHeight="500.0" prefWidth="459.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button layoutX="201.0" layoutY="428.0" mnemonicParsing="false" onAction="#gotoFunctionPage" prefHeight="37.0" prefWidth="157.0" style="-fx-background-color: #413F3F;" text="Let's get started!" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="Segoe UI Symbol" size="17.0" />
+                    </font>
+                </Button>
+                <Label layoutX="33.0" layoutY="39.0" prefHeight="21.0" prefWidth="336.0" text="THIS APPLICATION ALLOWS YOU TO CONVERT">
+                    <font>
+                        <Font name="Segoe UI Semibold Italic" size="15.0" />
+                    </font></Label>
+                <Label layoutX="33.0" layoutY="60.0" prefHeight="27.0" prefWidth="321.0" text="WORD DOCUMENTS IN PDF FORMAT(.pdf)">
+                    <font>
+                        <Font name="Segoe UI Semilight Italic" size="14.0" />
+                    </font>
+                </Label>
+            <ImageView fitHeight="221.0" fitWidth="209.0" layoutX="-123.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Admin/IdeaProjects/ColneMyUI/src/images/paper%20(2).png" />
+               </image>
+            </ImageView>
+            </children>
+            <effect>
+                <Lighting>
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+                    <light>
+                        <Light.Distant />
+                    </light>
+                </Lighting>
+            </effect></AnchorPane>
+    </right>
+</BorderPane>
